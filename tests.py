@@ -10,4 +10,4 @@ def test_same_shape():
 
 def test_df_sum():
 	df = pd.DataFrame([1,2,3,4,5])
-	assert df.sum() == 15
+	assert df.sum() == 16
