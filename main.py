@@ -12,6 +12,9 @@ def print_hi(name):
 def pandas_to_list(df):
     return df.to_list()
 
+def sum_df(df):
+    return df.sum()
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     lst = pandas_to_list(pd.Series([1,2,3,4,5]))
